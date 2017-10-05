@@ -2,7 +2,7 @@ package variablesAndData;
 
 import java.util.Scanner;
 
-public class ConditionalDemo {
+public class CheckGrade {
 
     void conditionCheck()
     {
@@ -29,8 +29,8 @@ public class ConditionalDemo {
     }
 
     public static void main(String[] args) {
-        ConditionalDemo conditionalDemo=new ConditionalDemo();
-        conditionalDemo.conditionCheck();
+        CheckGrade checkGrade =new CheckGrade();
+        checkGrade.conditionCheck();
     }
 
 }
